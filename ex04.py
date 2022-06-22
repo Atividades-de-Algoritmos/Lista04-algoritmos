@@ -45,6 +45,8 @@ elif (porcentagemVacinados >= 60 and porcentagemVacinados <= 100):
 print("Fim do programa")
 
 # extra 01
+print('-----------------------------------------------------')
+print("extra 01")
 # caso queira arredondar o valor da porcentagem
 # import math e use a função trunc() arrendoda para baixo ou floor() arredonda para baixo, ceil() arredonda para cima
 import math
