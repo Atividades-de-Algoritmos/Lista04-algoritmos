@@ -11,8 +11,9 @@ else: # se for impar
 print("Fim do programa")
 
 
-print('-----------------------------------------------------')
 # extra 01
+print('-----------------------------------------------------')
+print("extra 01")
 # se for apenas para verificar o valor é impar, não precisa de else
 if not(valor1 % 2) == 0: # se for impar
     print(f"O valor {valor1} é impar") # saída
