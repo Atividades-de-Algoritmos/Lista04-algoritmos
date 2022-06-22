@@ -16,13 +16,13 @@ quantJanssen = int(input("Digite a quantidade de janssen: "))
 quantVacinados = quantCoronavac + quantAstrazeneca + quantPfizer + quantJanssen
 porcentagemVacinados = (quantVacinados * 100) / totalPessoas
 # calcula a porcentagem de pessoas que foram vacinadas com Coronavac
-porcentCoronavac = (quantCoronavac * 100) / totalPessoas
+porcentCoronavac = (quantCoronavac * 100) / quantVacinados
 # calcula a porcentagem de pessoas que foram vacinadas com Astrazeneca
-porcentAstrazeneca = (quantAstrazeneca * 100) / totalPessoas
+porcentAstrazeneca = (quantAstrazeneca * 100) / quantVacinados
 # calcula a porcentagem de pessoas que foram vacinadas com Pfizer
-porcentPfizer = (quantPfizer * 100) / totalPessoas
+porcentPfizer = (quantPfizer * 100) / quantVacinados
 # calcula a porcentagem de pessoas que foram vacinadas com janssen
-porcentJanssen = (quantJanssen * 100) / totalPessoas
+porcentJanssen = (quantJanssen * 100) / quantVacinados
 
 # saída
 print(f"porcentagem de pessoas que foram vacinadas: {porcentagemVacinados}%")
@@ -43,3 +43,16 @@ elif (porcentagemVacinados >= 60 and porcentagemVacinados <= 100):
     print("Ritmo: Acelerado")
 
 print("Fim do programa")
+
+# extra 01
+# caso queira arredondar o valor da porcentagem
+# import math e use a função trunc() arrendoda para baixo ou floor() arredonda para baixo, ceil() arredonda para cima
+import math
+porcentCoronavac = math.trunc(porcentCoronavac)
+print(f"A porcentagem de pessoas que foram vacinadas com Coronavac é {porcentCoronavac}%")
+porcentAstrazeneca = math.floor(porcentAstrazeneca)
+print(f"A porcentagem de pessoas que foram vacinadas com Astrazeneca é {porcentAstrazeneca}%")
+porcentPfizer = math.ceil(porcentPfizer)
+print(f"A porcentagem de pessoas que foram vacinadas com Pfizer é {porcentPfizer}%")
+porcentJanssen = math.ceil(porcentJanssen)
+print(f"A porcentagem de pessoas que foram vacinadas com janssen é {porcentJanssen}%")
