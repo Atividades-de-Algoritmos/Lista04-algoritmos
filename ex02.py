@@ -1,3 +1,9 @@
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
 #
 #entrada
 nota1 = float(input("Digite a primeira nota1: ")) # entrar com a nota 1
