@@ -253,7 +253,7 @@ No terminal, digite:
 ```cmd
 python ex05.py
 ```
-Pressione enter para executar o arquivo, em seguida informe o valor total da compra e visualize a interface gráfica escolhendo a sua forma de pagamento.
+Pressione enter para executar o arquivo, em seguida informe o valor total da compra e visualize a interface escolhendo a sua forma de pagamento pelo terminal e pressione enter.
 
 > Irá ser exibido no terminal o valor das parcelas os descontos pertencente a forma de pagamento escolhida.
 
@@ -277,7 +277,7 @@ pagamento a vista no cartão
 desconto de 5%
 O valor da compra é 100.0 e o valor do desconto é 5.0
 valor a ser pago é 95.0
-Fim do programa
+fim do programa
 ```
 
 <br>
