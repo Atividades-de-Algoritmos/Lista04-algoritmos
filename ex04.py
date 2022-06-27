@@ -35,6 +35,7 @@ quantCoronavac = int(input("Digite a quantidade de coronavac: ")) # Solicitando 
 quantAstrazeneca = int(input("Digite a quantidade de astrazeneca: ")) # Solicitando a quantidade de pessoas vacinadas com o imunizante astrazeneca
 quantPfizer = int(input("Digite a quantidade de Pfizer: ")) # Solicitando a quantidade de pessoas vacinadas com o imunizante Pfizer
 quantJanssen = int(input("Digite a quantidade de janssen: ")) # Solicitando a quantidade de pessoas vacinadas com o imunizante janssen
+quantVacinados = quantCoronavac + quantAstrazeneca + quantPfizer + quantJanssen # Calculando a quantidade de pessoas vacinadas
 
 # Tratando erros
 
@@ -49,7 +50,6 @@ else: # Se não atender nenhuma condição de cima, será executado a identaçã
 
 # Processamento de dados
 
-quantVacinados = quantCoronavac + quantAstrazeneca + quantPfizer + quantJanssen # Calculando a quantidade de pessoas vacinadas
 porcentagemVacinados = (quantVacinados * 100) / totalPessoas # Calculando a porcentagem de pessoas vacinadas
 porcentCoronavac = (quantCoronavac * 100) / quantVacinados # Calculando a porcentagem de pessoas vacinadas com o imunizante coronavac
 porcentAstrazeneca = (quantAstrazeneca * 100) / quantVacinados # Calculando a porcentagem de pessoas vacinadas com o imunizante astrazeneca
@@ -58,7 +58,7 @@ porcentJanssen = (quantJanssen * 100) / quantVacinados # Calculando a porcentage
 
 # Saída de dados
 
-print(f"porcentagem de pessoas que foram vacinadas: {porcentagemVacinados}%") # Exibindo a porcentagem de pessoas que foram vacinadas
+print(f"\nporcentagem de pessoas que foram vacinadas: {porcentagemVacinados}%") # Exibindo a porcentagem de pessoas que foram vacinadas
 print(f"total de vacinados: {quantVacinados}") # Exibindo a quantidade de pessoas que foram vacinadas
 print(f"A porcentagem de pessoas que foram vacinadas com Coronavac é {porcentCoronavac}%") # Exibindo a porcentagem de pessoas que foram vacinadas com o imunizante coronavac
 print(f"A porcentagem de pessoas que foram vacinadas com Astrazeneca é {porcentAstrazeneca}%") # Exibindo a porcentagem de pessoas que foram vacinadas com o imunizante astrazeneca
@@ -79,7 +79,7 @@ elif (porcentagemVacinados >= 40 and porcentagemVacinados < 60): # Verificando s
 elif (porcentagemVacinados >= 60 and porcentagemVacinados <= 100): # Verificando se a porcentagem de pessoas que foram vacinadas é maior ou igual à 60% e menor ou igual à 100%
     print("Ritmo: Acelerado") # Exibindo o ritmo de vacinação
 
-print("fim do programa") # Informando ao usuário que o programa chegou ao fim.
+print("\nfim do programa") # Informando ao usuário que o programa chegou ao fim.
 
 print('')
 
