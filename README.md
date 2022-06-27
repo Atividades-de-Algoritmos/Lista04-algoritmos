@@ -150,7 +150,7 @@ fim do programa
 <br>
 
 ## Sobre 📒:
- - Programa que recebe a população de uma determinada cidade e a quantidade de pessoas vacinadas com determinadas vacinas. Depois irá exibir um relatório mostrando o percentual da população vacinada e o ritmo de vacinação.
+ - Programa que recebe a população de uma determinada cidade e a quantidade de pessoas vacinadas com determinadas vacinas (CornovaVac, Janssen, Pfizer, Astrazeneca). Depois irá exibir um relatório mostrando o percentual da população vacinada e o ritmo de vacinação.
 
 <br>
 
