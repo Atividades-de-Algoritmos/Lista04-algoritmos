@@ -1,26 +1,35 @@
-
+#
 # Autores:
 # Michel Silva
-# Emanuel Frank
+# Emanuel Franklyn
 # Carlos Eduardo
+#
 # data: 26/06/2022
 #
-#
-#entrada
-valor1 = int(input("Digite um valor: ")) # entrada
+# 1. Recebe um valor do usuário e retorna se é impar ou par.
 
-# processamento e saída
-if valor1 % 2 == 0: # se for par
-    print(f"O valor {valor1} é par") # saída
-else: # se for impar
-    print("O valor é impar")  # saída
+# Entrada de dados
 
-print("Fim do programa")
+valor1 = int(input("Digite um valor: ")) # Solicitando um número inteiro do usuário
+
+# processamento e saída de dados
+
+if valor1 % 2 == 0: # se o valor for par, vai imprimir o resultado
+    print(f"O valor {valor1} é par") 
+
+else: # se for o valor for impar, vai imprimir o resultado
+    print("O valor é impar") 
+
+print("fim do programa") # Informando ao usuário que o programa terminou
 
 
 # extra 01
-print('-----------------------------------------------------')
-print("extra 01")
-# se for apenas para verificar o valor é impar, não precisa de else
-if not(valor1 % 2) == 0: # se for impar
+
+# Entrada de dados (Mesma do anterior)
+
+# Processamento e saída de dados
+
+# Se for apenas para verificar o valor é impar, não precisa de else
+
+if not(valor1 % 2) == 0: # Se não for par, ou seja, se for impar
     print(f"O valor {valor1} é impar") # saída
